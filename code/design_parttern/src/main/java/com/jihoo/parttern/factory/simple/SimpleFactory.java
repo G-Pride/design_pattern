@@ -16,10 +16,10 @@ import com.jihoo.parttern.factory.service.impl.LenovoMouse;
  * 使用场景：1、创建对象的场景较少；
  *         2、客户端不关心对象的创建过程。
  */
-public class MouseFactory {
+public class SimpleFactory {
 
     public static void main(String[] args) {
-        Mouse mouse = MouseFactory.createMouse(3);
+        Mouse mouse = SimpleFactory.createMouse(3);
         mouse.sayHi();
     }
 
